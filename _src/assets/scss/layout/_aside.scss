@@ -10,7 +10,8 @@
 .aside__author-img{
   width: 150px;
   height: 150px;
-  border-radius: 50px;
+  border-radius: 50%;
+  border: 1px solid $color-primary;
 }
 .aside__author-title{
   font-family: $Font-Text-Pacifico;
@@ -41,4 +42,10 @@
   line-height: 2;
   font-family: $Font-Text-Montserrat;
   color: $color-text;
+
+  &:hover{
+    color: $color-primary;
+    text-decoration: underline;
+    transition: color ease 1s;
+  }
 }
