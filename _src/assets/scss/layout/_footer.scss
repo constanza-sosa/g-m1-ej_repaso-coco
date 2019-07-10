@@ -1,0 +1,10 @@
+.footer{
+  border-top: $dotted-border;
+}
+
+.footer__text{
+  color: $color-text;
+  font-family: $Font-Text-Pacifico;
+  opacity: .5;
+  margin: 20px auto 50px;
+}

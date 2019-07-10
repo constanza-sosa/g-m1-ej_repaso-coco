@@ -1,0 +1,43 @@
+.aside{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.aside__author{
+  width: 50%;
+}
+.aside__author-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+.aside__author-title{
+  font-family: $Font-Text-Pacifico;
+  color: $color-primary;
+}
+.aside__author-text{
+  font-family: $Font-Text-Montserrat;
+  color: $color-text;
+  text-align: justify;
+  margin: 0;
+  padding: 10px;
+}
+.aside__links{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.aside__links-list{
+  list-style: none;
+  margin: 0;
+  padding:15px;
+  width: 100%;
+}
+
+.aside__links-to{
+  text-decoration: none;
+  line-height: 2;
+  font-family: $Font-Text-Montserrat;
+  color: $color-text;
+}
