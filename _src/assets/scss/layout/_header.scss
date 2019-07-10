@@ -1,9 +1,13 @@
 .header__img-cont{
-  background-color: white;
-  height: 150px;
-}
+  background-color: blue;
+  display: inline-block;
+  height: 75px;
 
+}
 .header__img{
   max-width: 100%;
-
+}
+.header__title{
+  color: $color-primary;
+  text-align: center;
 }

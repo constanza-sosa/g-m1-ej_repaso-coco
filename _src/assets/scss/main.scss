@@ -1,2 +1,4 @@
-@import 'layout/body.scss';
-@import 'layout/header.scss';
+/* Import de los partials*/
+@import 'core/_variables.scss';
+@import 'layout/_body.scss';
+@import 'layout/_header.scss';
