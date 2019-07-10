@@ -1,0 +1,23 @@
+.main {
+  background-color: $color-background;
+  border-top: 3px dotted $color-primary;
+}
+
+.main__recepie-cont{
+  text-align: left;
+  padding: 20px;
+}
+
+.main__recepie-title{
+  font-family: $Font-Text-Pacifico;
+  margin: 0;
+}
+
+.main__recepie-text{
+  font-family: $Font-Text-Montserrat;
+  margin: 0;
+  text-align: justify;
+}
+
+// $Font-Text-Montserrat: 'Montserrat', sans-serif;
+// $Font-Text-Pacifico: 'Pacifico', cursive;

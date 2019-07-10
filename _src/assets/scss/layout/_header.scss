@@ -1,14 +1,16 @@
 .header__img-cont{
-  background-color: blue;
   display: inline-block;
+  width: 150px;
   height: 75px;
 
 }
 .header__img{
-  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
 }
 .header__title{
   color: $color-primary;
   font-family: $Font-Text-Pacifico;
   text-align: center;
+  margin: 0 0 20px;
 }
